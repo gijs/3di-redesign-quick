@@ -1,0 +1,179 @@
+html {}
+body {font:14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#CDD1D9 url("../images/details-pattern.jpg"); color:#565E66; margin:0; padding:0;}
+img {border:none;}
+ul {margin:0; padding:0; list-style-type:none;}
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {outline:none; -moz-outline-style:none;}
+a:focus {outline:none; -moz-outline-style:none;}
+.clear {clear:both; font-size:0; line-height:0;}
+
+/* Pattern Header */
+.header-center {width:960px; padding:0 20px; margin:0 auto; position:relative;}
+.gradient-loading {background-color:#0c0819; height:120px;}
+.gradient-disabled {background-color:#0c0819; height:120px;}
+.gradient {background-image:-webkit-gradient(radial, center -550, 900, center -250 , 250, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)));
+	background-image:-moz-radial-gradient(rgba(0, 0, 0, 0), #111); width:100%; position:absolute; height:120px; min-width:960px; top:0;}
+.nav {position:absolute; top:30px; right:10px;}
+.nav a {line-height:24px; font-size:16px; color:#9583db; margin-right:20px; font-weight:bold; 
+	text-decoration:none; border-bottom:1px solid #534283; position:relative; float:right; text-shadow:#000 0px 1px 3px;}
+.nav a:hover {border-bottom:1px solid #8e7bc5; color:#fff;}
+
+/* Suppoprt page styles */
+#content-support {width:960px; margin:30px auto; padding:0 20px 30px 20px; position:relative; text-shadow:0px 1px 0px #ebecf0; border-bottom:1px solid #C2C8D1;}
+#content-support h2 {color:#111; text-shadow:0px 1px 0px #fff; text-transform:uppercase; padding:10px 0 10px 40px; margin:5px 0;}
+
+.left {width:530px; float:left;}
+.left a {color:#5B9A00; padding-bottom:1px; border-bottom:none;}
+.left a:hover {border-bottom:1px solid #6AB037; color:#468700;}
+.right {width:320px; float:right;}
+.right a {color:#5B9A00; padding-bottom:1px; border-bottom:none;}
+.right a:hover {border-bottom:1px solid #6AB037; color:#468700;}
+
+/* footer */
+#footer {text-align:center; text-shadow:0px 1px 0px #ebecf0; margin:0 0 20px 0;}
+#footer a {color:#5B9A00; padding-bottom:1px; border-bottom:none; text-decoration:none;}
+#footer a:hover {border-bottom:1px solid #6AB037; color:#468700;}
+
+/* Beta Page */
+a.title-beta {display:block; background-image:url("../images/header-beta.png");background-repeat:no-repeat; width:410px; height:87px; top:20px; position:relative;}
+
+#header-beta .nav {position:absolute; top:16px; right:10px;}
+#header-beta .nav a {color:#555; margin-right:20px; font-weight:bold; 
+	text-decoration:none; border-bottom:1px solid #555; text-shadow:hsla(0,0%,100%,0.6) 0px 1px 0px;}
+#header-beta .nav a:hover {border-bottom:1px solid #8e7bc5; color:#999;}
+
+#header-beta {height:53px; background:#0c0819; min-width:800px; background:-webkit-linear-gradient(hsl(210,5%,95%),hsl(210,4%,90%)); background:-moz-linear-gradient(hsl(210,5%,95%),hsl(210,4%,90%)); position:relative; border-bottom:1px solid #fff;
+	-webkit-font-smoothing: antialiased;}
+#header-beta .header-center{min-width: 800px; width: 900px;}
+.gradient-beta {background-image:-webkit-gradient(radial, center -550, 900, center -250 , 250, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)));
+	background-image:-moz-radial-gradient(rgba(0, 0, 0, 0), #111); width:100%; position:absolute; height:120px; min-width:960px; top:0;}
+/*
+#hero-beta{ height: 300px; background:-webkit-linear-gradient(hsla(222,10%,98%,0.95)0%, hsla(222,8%,98%,0.25) 100%),url("../images/kal-pattern-light.gif"); background:-moz-linear-gradient(hsla(222,10%,98%,0.95)0%, hsla(222,8%,98%,0.25) 100%),url("../images/kal-pattern-light.gif"); border-bottom: 1px solid #ccc; position: relative; box-shadow: 0px 1px 0px white;}
+*/
+#hero-beta{ height: 300px; background:url("../images/pattern.png") repeat-x; border-bottom: 1px solid #ccc; position: relative; box-shadow: 0px 1px 0px white;}
+
+
+#hero-beta .container{width:840px; position: relative; margin-left: auto; margin-right: auto;}
+#hero-beta h1{font-size: 46px; margin-bottom: 18px; text-shadow: 0px 1px 0px white;}
+#hero-beta h2{font-size:22px; font-weight: normal; margin-top: 0px; text-shadow: 0px 1px 0px white;}
+.buttonwrap.beta .small {text-shadow: 0px 1px 1px #fff; color: hsla(0,0%,60%,1);}
+#hero-beta #ksicon{height: 256px; width:330px; margin-top: 23px; background: url("../images/logo.png"); background-repeat: no-repeat; float: left;}
+.hero-shadow{height: 19px; background:-webkit-linear-gradient(hsla(0,0%,8%,0)0%, hsla(0,0%,8%,0.05) 100%); background:-moz-linear-gradient(hsla(0,0%,8%,0)0%, hsla(0,0%,8%,0.05) 100%); position: absolute; bottom: 0; right: 0;left: 0;}
+
+#content-beta {width:850px; margin:50px auto; padding:10px; font:17px/28px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; position: relative;}
+#content-beta h1 {font-size:34px; margin:0; font-weight: normal; margin-bottom: 30px; margin-top: 10px;}
+#content-beta p {margin: 21px 0px 21px 0px};
+#content-beta h2{font-size:17px; margin-bottom: 0px; display: none;}
+
+body{background:#f3f3f3 url("../images/pattern.jpg"); color:#565E66; margin:0; padding:0;}
+
+.button{margin-right: 0px; box-shadow: 0 2px 4px rgba(0,0,0,.4), inset 0 1px 0px hsla(0,0%,100%,0.7);}
+.buttonwrap .small{margin-left: 0px;}
+
+#download_popup_container h2{margin: 0px;}
+
+.betadownloadfooter{margin-top: 30px; clear: both;}
+.betadownloadfooter .buttonwrap{float:right;}
+.betadownloadfooter h2{float: left; margin-top: 5px; }
+
+section{margin-top: 55px;margin-bottom: 55px;}
+section p{margin-top: 10px !important;}
+
+section h3{
+	font-size: 18px;
+	margin: 10px 0px 0px 0px;
+}
+
+
+.footer_expandable_content {
+	cursor:pointer;
+}
+.footer_expandable_content h3 {
+	font-size: 18px;
+	color: rgb(86, 94, 102);
+	border-bottom:1px solid #534283;
+	display: inline;
+}
+
+.footer_expandable_content h3:hover {border-bottom:1px solid #8e7bc5;}
+
+
+#release-notes {display: none;margin-bottom: 10px;}
+
+
+/* --------------- FAQ ------------------------------ */
+
+#faqarea {
+	display: none;
+}
+.faqarea {
+	margin: 23px 0px 7px 7px;
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 60px;
+	font-size: 14px;
+	box-shadow: 0px 4px 32px hsla(0,0%,10%,0.1);
+}
+
+.faqarea b {
+	margin-right: 10px;
+}
+
+.faqarea a {
+	color:#555; 
+	text-decoration:none; 
+	border-bottom:1px solid #555; 
+	text-shadow:hsla(0,0%,100%,0.6) 0px 1px 0px;
+}
+.faqarea a:hover {
+	border-bottom:1px solid #8e7bc5; 
+	color:#999;
+}
+
+.faq_question {
+	font-weight: bold;
+	margin-bottom: 2px;
+	font-size: 16px;
+}
+
+.faq_answer {margin-bottom: 26px; margin-left: 28px;}
+.faq_answer:first-letter {font-weight: bold;}
+
+/* --------------------- SCREENSHOT ICONS ------------------------------ */
+.roundbutton {position:absolute;left:-3px;top:-3px; padding: 6px;}
+.screenshot .frame{position:absolute;top:7px;left:7px; border: 1px solid hsl(220,13%,73%); border-radius: 5px; box-shadow:inset 0 1px 6px hsla(0,0%,0%,0.15);width:251px;height:190px; background-color: white; cursor:pointer;}
+.screenshot .frame:hover{box-shadow:inset 0 1px 6px hsla(0,0%,0%,0.45);}
+.screenshot .frame:active{box-shadow:inset 0 1px 10px hsla(0,0%,0%,0.60);}
+
+.screenshot-zoom {width:16px;height:16px;background:url("../images/sprite.png") -900px -10px no-repeat;}
+
+.screenshot-integrationwindow {background:url("../images/integration.jpg") -160px -310px no-repeat;}
+.screenshot-3up {background:url("../images/merge.jpg") -130px -210px no-repeat;}
+.screenshot-folderscope {background:url("../images/folders.jpg") -320px -136px no-repeat;}
+.screenshot-imagescope {background:url("../images/images.jpg") -410px -110px no-repeat;}
+
+.screenshot{float: left; margin-right: 35px; position: relative; display: block; width: 267px; height: 206px; border: 1px solid hsl(220,19%,85%); box-shadow: inset 0px 1px 1px white; 
+	background: -webkit-linear-gradient(hsl(220,48%,96%) 0%, hsl(216,42%,93%) 55%,hsl(220,48%,96%) 100%); border-radius: 7px; 
+	background: -moz-linear-gradient(top,hsl(220,48%,96%) 0%, hsl(216,42%,93%) 55%,hsl(220,48%,96%) 100%); border-radius: 7px;}
+
+.screenshot.right{float:right; margin-right: 0px; margin-left: 35px;}
+
+.kshero-ss{ background:url('../images/images.jpg'); margin: 20px 0px 40px -30px; background-size: 916px 622px; height: 622px; width: 916px;}
+
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx) {
+
+	.kshero-ss{background:url('../images/imagesat2x.png'); margin: 20px 0px 40px -30px; background-size: 916px 622px; -webkit-background-size: 916px 622px; height: 622px; width: 916px;}
+	#hero-beta #ksicon{height: 256px; width:256px; background: url("../images/ksicon_512.png"); background-size: 256px 256px; -webkit-background-size: 256px 256px; margin-top: 23px; float: left;}
+	.screenshot-integrationwindow {background:url("../images/integrationat2x.png") -160px -310px no-repeat; background-size: 916px 622px;}
+	.screenshot-3up {background:url("../images/mergeat2x.png") -130px -210px no-repeat; background-size: 916px 622px;}
+	.screenshot-folderscope {background:url("../images/foldersat2x.png") -320px -136px no-repeat; background-size: 916px 622px;}
+	.screenshot-imagescope {background:url("../images/imagesat2x.png") -410px -110px no-repeat; background-size: 916px 622px;}
+	#hero-beta{background:url("../images/hero-beta-patternat2x.png") repeat-x; border-bottom: 1px solid #ccc; position: relative; box-shadow: 0px 1px 0px white; background-size: 30px 300px;}
+}

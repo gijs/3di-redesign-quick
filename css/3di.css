@@ -153,6 +153,10 @@ section h3{
 .screenshot-folderscope {background:url("../images/folders.jpg") -320px -136px no-repeat;}
 .screenshot-imagescope {background:url("../images/images.jpg") -410px -110px no-repeat;}
 
+
+
+
+
 .screenshot{float: left; margin-right: 35px; position: relative; display: block; width: 267px; height: 206px; border: 1px solid hsl(220,19%,85%); box-shadow: inset 0px 1px 1px white; 
 	background: -webkit-linear-gradient(hsl(220,48%,96%) 0%, hsl(216,42%,93%) 55%,hsl(220,48%,96%) 100%); border-radius: 7px; 
 	background: -moz-linear-gradient(top,hsl(220,48%,96%) 0%, hsl(216,42%,93%) 55%,hsl(220,48%,96%) 100%); border-radius: 7px;}

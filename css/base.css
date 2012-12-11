@@ -1,7 +1,4 @@
 
-
-
-
 /*------------------------------
 
 	Examples
@@ -193,7 +190,7 @@
 .example .ipad {
 	position: absolute;
 	top: 500px;
-	left: 50%;
+	left: 60%;
 	z-index: 1000;
 	width: 463px;
 	height: 590px;

@@ -48,9 +48,8 @@ var TRANSITION_END_EVENTS = {
 $(document).ready(function() {
 
 	if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-		$ipadhero = $('.usemeforipadbanner');
-		$ipadhero.html("<img src='./images/ipadhero.jpg'/>");
-		$('.spacer').css('height', '0px');
+		$('.spacer').remove();
+		$('.example').remove();
 	} else {
 		$('.spacer').css('height', '387px');
 		$body = $('body');

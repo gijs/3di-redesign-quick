@@ -148,17 +148,32 @@ section h3{
 
 .screenshot-zoom {width:16px;height:16px;background:url("../images/sprite.png") -900px -10px no-repeat;}
 
-.screenshot-integrationwindow {background:url("../images/integration.jpg") -160px -310px no-repeat;}
-.screenshot-3up {background:url("../images/merge.jpg") -130px -210px no-repeat;}
-.screenshot-folderscope {background:url("../images/folders.jpg") -320px -136px no-repeat;}
-.screenshot-imagescope {background:url("../images/images.jpg") -410px -110px no-repeat;}
+.screenshot-pointcloud {background:url("../images/pointcloud.jpg") -160px -310px no-repeat;}
+.screenshot-quadtree {background:url("../images/quadtree.jpg") -130px -210px no-repeat;}
+.screenshot-overstroming {background:url("../images/overstroming.jpg") -320px -136px no-repeat;}
+.screenshot-traploos {background:url("../images/traploos.jpg") -320px -136px no-repeat;}
+.screenshot-beton {background:url("../images/beton.jpg") -410px -110px no-repeat;}
 
 
 
 .screenshot-consortium {background:url("../images/consortium.jpg") no-repeat;}
 .screenshot-launchingcustomers {background:url("../images/launchingcustomers.jpg") no-repeat;}
 .screenshot-supportingcustomers {background:url("../images/supportingcustomers.jpg") no-repeat;}
+
 .screenshot-hydrolink {background:url("../images/hydrolink.jpg") no-repeat;}
+.screenshot-waterproof {background:url("../images/guus.jpg") no-repeat;}
+.screenshot-waterschap {background:url("../images/waterschap.jpg") no-repeat;}
+
+
+.screenshot-case-dijkring14 {background:url("../images/case-dijkring14.jpg") no-repeat;}
+.screenshot-case-barneveldsedijk {background:url("../images/case-barneveldsedijk.jpg") no-repeat;}
+.screenshot-case-klimaatadaptatie {background:url("../images/case-klimaatadaptatie.jpg") no-repeat;}
+
+.screenshot-event-genomineerd {background:url("../images/event-3di-genomineerd.jpg") no-repeat;}
+
+.screenshot-video1 {background:url("../images/video1.jpg") no-repeat;}
+.screenshot-video2 {background:url("../images/video2.jpg") -120px -36px no-repeat;}
+
 
 
 

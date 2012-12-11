@@ -5,6 +5,19 @@
 	<title>3Di - Home</title>
 	<link rel="stylesheet" href="css/3di.css" type="text/css" media="screen" charset="utf-8">
 	<link rel="stylesheet" href="css/buttons.css" type="text/css" media="screen" charset="utf-8">
+	
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.3"></script>
+	<link rel="stylesheet" type="text/css" href="js/jquery.fancybox.css?v=2.1.2" media="screen" />
+
+	<script>
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+	</script>
 </head>
 <body>
 
@@ -15,7 +28,7 @@
 				<a class="" href="#"></a>
 				<a href="./contact.html">Contact</a>
 				<a href="./downloads.html">Downloads</a>
-				<a href="./academy.html">Academy</a>
+				<!-- <a href="./academy.html">Academy</a> -->
 
 				<a href="./videos.html">Videos</a>
 				<a href="./events.html">Events</a>
@@ -63,7 +76,7 @@
 		
 	<section>
 		<div class="screenshot">
-			<div class="screenshot-integrationwindow frame"></div>
+			<a class="fancybox" href="images/pointcloud.jpg"><div class="screenshot-pointcloud frame"></div></a>
 			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
 		</div>
 		<h3>Integratie 1D-stroming</h3>
@@ -74,8 +87,8 @@
 	</section>
 	<section>
 		<div class="screenshot right">
-			<div class="screenshot-3up frame"></div>
-			<div class="roundbutton purple screenshot-2"><div class="screenshot-zoom"></div></div>
+			<div class="screenshot-quadtree frame"></div>
+			<!-- <div class="roundbutton purple screenshot-2"><div class="screenshot-zoom"></div></div> -->
 		</div>
 		<h3>Planvorming</h3>
 		<p>
@@ -85,7 +98,7 @@
 	</section>
 	<section>
 		<div class="screenshot">
-			<div class="screenshot-folderscope frame"></div>
+			<a class="fancybox" href="images/traploos.jpg"><div class="screenshot-traploos frame"></div></a>
 			<div class="roundbutton purple screenshot-3"><div class="screenshot-zoom"></div></div>
 		</div>
 		<h3>Traploze detailvisualisatie</h3>
@@ -96,8 +109,8 @@
 	</section>
 	<section>
 		<div class="screenshot right">
-			<div class="screenshot-imagescope frame"></div>
-			<div class="roundbutton purple screenshot-4"><div class="screenshot-zoom"></div></div>
+			<a href="documenten/Meer bytes minder beton.pdf"><div class="screenshot-overstroming frame"></div></a>
+			<!-- <div class="roundbutton purple screenshot-4"><div class="screenshot-zoom"></div></div> -->
 		</div>
 		<h3>Meer bytes, minder beton</h3>
 		<p>

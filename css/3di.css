@@ -1,5 +1,5 @@
 html {}
-body {font:14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#CDD1D9 url("../images/details-pattern.jpg"); color:#565E66; margin:0; padding:0;}
+body {font:14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#CDD1D9 url("../images/details-pattern.png"); color:#565E66; margin:0; padding:0;}
 img {border:none;}
 ul {margin:0; padding:0; list-style-type:none;}
 a {text-decoration:none;}
@@ -155,6 +155,11 @@ section h3{
 
 
 
+.screenshot-consortium {background:url("../images/consortium.jpg") no-repeat;}
+.screenshot-launchingcustomers {background:url("../images/launchingcustomers.jpg") no-repeat;}
+.screenshot-supportingcustomers {background:url("../images/supportingcustomers.jpg") no-repeat;}
+.screenshot-hydrolink {background:url("../images/hydrolink.jpg") no-repeat;}
+
 
 
 .screenshot{float: left; margin-right: 35px; position: relative; display: block; width: 267px; height: 206px; border: 1px solid hsl(220,19%,85%); box-shadow: inset 0px 1px 1px white; 
@@ -165,19 +170,3 @@ section h3{
 
 .kshero-ss{ background:url('../images/images.jpg'); margin: 20px 0px 40px -30px; background-size: 916px 622px; height: 622px; width: 916px;}
 
-@media
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (   min--moz-device-pixel-ratio: 2),
-	only screen and (     -o-min-device-pixel-ratio: 2/1),
-	only screen and (        min-device-pixel-ratio: 2),
-	only screen and (                min-resolution: 192dpi),
-	only screen and (                min-resolution: 2dppx) {
-
-	.kshero-ss{background:url('../images/imagesat2x.png'); margin: 20px 0px 40px -30px; background-size: 916px 622px; -webkit-background-size: 916px 622px; height: 622px; width: 916px;}
-	#hero-beta #ksicon{height: 256px; width:256px; background: url("../images/ksicon_512.png"); background-size: 256px 256px; -webkit-background-size: 256px 256px; margin-top: 23px; float: left;}
-	.screenshot-integrationwindow {background:url("../images/integrationat2x.png") -160px -310px no-repeat; background-size: 916px 622px;}
-	.screenshot-3up {background:url("../images/mergeat2x.png") -130px -210px no-repeat; background-size: 916px 622px;}
-	.screenshot-folderscope {background:url("../images/foldersat2x.png") -320px -136px no-repeat; background-size: 916px 622px;}
-	.screenshot-imagescope {background:url("../images/imagesat2x.png") -410px -110px no-repeat; background-size: 916px 622px;}
-	#hero-beta{background:url("../images/hero-beta-patternat2x.png") repeat-x; border-bottom: 1px solid #ccc; position: relative; box-shadow: 0px 1px 0px white; background-size: 30px 300px;}
-}

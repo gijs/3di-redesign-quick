@@ -46,31 +46,36 @@ var TRANSITION_END_EVENTS = {
 ------------------------------*/
 
 $(document).ready(function() {
-	$body = $('body');
-	$ipad = $('.example .ipad');
-	$specular = $('.example .specular');
-	$next = $('.next');
-	$prev = $('.previous');
-	$examples = $('.example');
-	// $descriptions = $('.description');
-	$qrs = $('.qr');
-	$mobileLenticular = $('.mobile-lenticular');
-	$closeBtn = $('.mobile-close-btn');
-	transformProperty = domToCss(Modernizr.prefixed('transform'));
-	transitionProperty = domToCss(Modernizr.prefixed('transition'));
-	transitionEndProperty = TRANSITION_END_EVENTS[Modernizr.prefixed('transition')];
-	windowWidth =  $(window).width();
-	bodyWidth = $body.width();
-	bodyHeight = $body.height();
-	currentExample = 0;
 
-	if(bodyWidth < bodyHeight) {
-		$body.addClass('is-portrait');
+	if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+		$ipadhero = $('.usemeforipadbanner');
+		$ipadhero.html("<img src='./images/ipadhero.jpg'/>");
+		$('.spacer').css('height', '0px');
 	} else {
-		$body.addClass('is-landscape');
-	}
+		$('.spacer').css('height', '387px');
+		$body = $('body');
+		$ipad = $('.example .ipad');
+		$specular = $('.example .specular');
+		$next = $('.next');
+		$prev = $('.previous');
+		$examples = $('.example');
+		// $descriptions = $('.description');
+		$qrs = $('.qr');
+		$mobileLenticular = $('.mobile-lenticular');
+		$closeBtn = $('.mobile-close-btn');
+		transformProperty = domToCss(Modernizr.prefixed('transform'));
+		transitionProperty = domToCss(Modernizr.prefixed('transition'));
+		transitionEndProperty = TRANSITION_END_EVENTS[Modernizr.prefixed('transition')];
+		windowWidth =  $(window).width();
+		bodyWidth = $body.width();
+		bodyHeight = $body.height();
+		currentExample = 0;
 
-	if(bodyWidth > 480) {
+		if(bodyWidth < bodyHeight) {
+			$body.addClass('is-portrait');
+		} else {
+			$body.addClass('is-landscape');
+		}
 
 		swansonLenticular = new Lenticular.Image($('.swanson')[0], {
 			images: 'images/sequence1/png##.png',
@@ -81,15 +86,6 @@ $(document).ready(function() {
 
 		$body.bind('mousemove', setMouseCoords);
 		setCurrent();
-	} else {
-		// setup mobile site
-		$('.mobile-examples a').bind('click', showLenticular);
-		$closeBtn.bind('click', hideLenticular);
-		$(window).bind('orientationchange', updateOrientation);
-		$body.bind('touchmove', preventScroll);
-
-		// lose the excess chrome
-		$(window).scrollTop(0).scrollLeft(0);
 	}
 });
 
@@ -170,7 +166,7 @@ function setCurrent() {
 	var marginTop;
 
 	if(currentLenticular) {
-		currentLenticular.element.style.opacity = 0;	
+		currentLenticular.element.style.opacity = 0;
 	}
 
 	zRotation = -100;

@@ -185,3 +185,35 @@ section h3{
 
 .kshero-ss{ background:url('../images/images.jpg'); margin: 20px 0px 40px -30px; background-size: 916px 622px; height: 622px; width: 916px;}
 
+
+
+
+
+
+
+#directorynav {
+	background: none;
+	color: #6b6b6c;
+	clear: both;
+	float: none;
+	margin-top: 0;
+	font-size: 12px;
+	line-height: 18px;
+	padding-top: 2px;
+	border-top: 1px solid #ddd;
+	padding-bottom: 20px;
+	float: left;
+	width: 100%;
+	margin-top: -4px;
+}
+#directorynav a{
+	color: #6b6b6c;
+}
+#directorynav ul li{
+	margin: 5px 0px 5px 0px;
+}
+.column {
+	float: left;
+	width: 100px;
+	padding: 9px 0 0 54px;
+}

@@ -15,7 +15,12 @@
 
 	<script>
 	$(document).ready(function() {
-		$('.fancybox').fancybox();
+		$('.fancybox').fancybox({
+	    	helpers : {
+	    		title : {
+	    			type : 'inside'
+    		}
+    	}});
 	});
 	</script>
 </head>
@@ -45,7 +50,7 @@
 		<div style="float:right; margin-top:60px;">
 			<h1>3Di  Waterbeheer</h1>
 			<h2>Sneller, beter, doelmatiger.</h2>
-			<div class="buttonwrap beta" style="margin-top:15px;"><a href="documenten/Nieuwsbrief_10_oktober2012-web.pdf"><span class="button purple download_beta">Nieuwsbrief <span class="img icon-arrow"></span></span></a><div class="small">Download de nieuwsbrief voor meer informatie</div> </div>
+			<div class="buttonwrap beta" style="margin-top:15px;"><a href="documenten/Nieuwsbrief_10_oktober2012-web.pdf"><span class="button purple download_beta">Nieuwsbrief <span class="img icon-arrow"></span></span></a><div class="small">Download de nieuwsbrief voor meer informatie</div> </div>			
 		</div>
 	</div>
 <div class="hero-shadow"></div>
@@ -76,12 +81,12 @@
 		
 	<section>
 		<div class="screenshot">
-			<a class="fancybox" href="images/pointcloud.jpg"><div class="screenshot-pointcloud frame"></div></a>
+			<a class="fancybox" title="Bij overstroming van een gebied als gevolg van een dijkdoorbraak of hevige neerslag is een proces dat zich het beste in 2D laat beschrijven. Maar watersystemen kennen ook elementen waar de stroming hoofdzakelijk in &eacute;&eacute;n richting plaatsvindt. Voorbeelden zijn waterlopen en kunstwerken zoals duikers. Door een slimme integratie van 1D-stroming in de 2D beschrijving, wordt het beste van twee werelden gecombineerd: supersnelle 1D-berekening die naadloos aansluiten op de fijnmazige 2D overstromingsberekening." href="images/pointcloud.jpg"><div class="screenshot-pointcloud frame"></div></a>
 			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
 		</div>
 		<h3>Integratie 1D-stroming</h3>
 		<p>
-		Bij overstroming van een gebied als gevolg van een dijkdoorbraak of hevige neerslag is er sprake zeer typische 2D-stromingspatronen. Maar het watersysteem kent ook elementen waar de stroming hoofdzakelijk in &eacute;&eacute;n richting plaatsvindt. Door een slimme integratie van 1D-vergelijkingen in 2D-stromingsberekeningen, wordt het beste van 1D en 2D gecombineerd.
+		Bij overstroming van een gebied als gevolg van een dijkdoorbraak of hevige neerslag is een proces dat zich het beste in 2D laat beschrijven. Maar watersystemen kennen ook elementen waar de stroming hoofdzakelijk in &eacute;&eacute;n richting plaatsvindt. Voorbeelden zijn waterlopen en kunstwerken zoals duikers. Door een slimme integratie van 1D-stroming in de 2D beschrijving, wordt het beste van twee werelden gecombineerd: supersnelle 1D-berekening die naadloos aansluiten op de fijnmazige 2D overstromingsberekening.
 		</p>
 		<div class="clear"></div>
 	</section>
@@ -98,7 +103,7 @@
 	</section>
 	<section>
 		<div class="screenshot">
-			<a class="fancybox" href="images/traploos.jpg"><div class="screenshot-traploos frame"></div></a>
+			<a class="fancybox" title="Traploze detailvisualisatie op basis van de AHN2 puntenwolk." href="images/traploos.png"><div class="screenshot-traploos frame"></div></a>
 			<div class="roundbutton purple screenshot-3"><div class="screenshot-zoom"></div></div>
 		</div>
 		<h3>Traploze detailvisualisatie</h3>
@@ -109,16 +114,26 @@
 	</section>
 	<section>
 		<div class="screenshot right">
-			<a href="documenten/Meer bytes minder beton.pdf"><div class="screenshot-overstroming frame"></div></a>
+			<div class="screenshot-overstroming frame"></div>
 			<!-- <div class="roundbutton purple screenshot-4"><div class="screenshot-zoom"></div></div> -->
 		</div>
 		<h3>Meer bytes, minder beton</h3>
 		<p>
-		De Waterschappen moeten bezuinigen, maar niet ten koste van veiligheid en de kwaliteit. Dat lijkt een onmogelijke opgave. Wie meer wil, met minder geld, moet inventief zijn. Hollands Noorderkwartier en Delfland investeren in de nieuwe 3Di- technologie die de grip op waterbeheer versterkt. Een tussenstand.
+		De Waterschappen moeten bezuinigen, maar niet ten koste van veiligheid en de kwaliteit. Dat lijkt een onmogelijke opgave. Wie meer wil, met minder geld, moet inventief zijn. Hollands Noorderkwartier en Delfland investeren in de nieuwe 3Di- technologie die de grip op waterbeheer versterkt. <a style="color: hsl(251,49%,56%);" href="documenten/Meer bytes minder beton.pdf">Een tussenstand</a>.
 		</p>
 		<div class="clear"></div>
 	</section>
-	
+	<section>
+		<div class="screenshot">
+			<a class="fancybox" title="Quadtree flood simulations with sub-grid digital elevation models." href="images/technicaldetails.jpg"><div class="screenshot-technicaldetails frame"></div></a>
+			<div class="roundbutton purple screenshot-2"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>De technische details</h3>
+		<p>
+		Het artikel <a style="color: hsl(251,49%,56%);" href="documenten/Stelling_ice_2012.pdf">'Quadtree flood simulations with sub-grid digital elevation models'</a> van Guus Stelling beschrijft de 3Di methode, waarbij op grond van een DEM overstromingsberekeningen kunnen worden uitgevoerd. "The paper describes how, without adaptations, a DEM can be used efficiently for detailed 2D flooding simulations. The method is based on four components: the sub-grid method; bottom friction derived from the divided channel method; the finite-volume staggered grid method for shallow water equations with rapidly varying flows; and quadtrees." Het artikel is gepubliceerd in de Proceedings of the ICE - Water Managementtvan het Institution of Civil Engineers, Volume 165, Issue WM10.
+		</p>
+		<div class="clear"></div>
+	</section>	
 
 	<div id="directorynav">
 		<div class="column">

@@ -38,6 +38,9 @@ a:focus {outline:none; -moz-outline-style:none;}
 /* Beta Page */
 a.title-beta {display:block; background-image:url("../images/header-beta.png");background-repeat:no-repeat; width:410px; height:87px; top:20px; position:relative;}
 
+#header-beta{
+	background-color: #ccc!important;
+}
 #header-beta .nav {position:absolute; top:16px; right:10px;}
 #header-beta .nav a {color:#555; margin-right:20px; font-weight:bold; 
 	text-decoration:none; border-bottom:1px solid #555; text-shadow:hsla(0,0%,100%,0.6) 0px 1px 0px;}
@@ -149,11 +152,11 @@ section h3{
 .screenshot-zoom {width:16px;height:16px;background:url("../images/sprite.png") -900px -10px no-repeat;}
 
 .screenshot-pointcloud {background:url("../images/pointcloud.jpg") -160px -310px no-repeat;}
-.screenshot-quadtree {background:url("../images/quadtree.jpg") -130px -210px no-repeat;}
-.screenshot-overstroming {background:url("../images/overstroming.jpg") -320px -136px no-repeat;}
-.screenshot-traploos {background:url("../images/traploos.jpg") -320px -136px no-repeat;}
-.screenshot-beton {background:url("../images/beton.jpg") -410px -110px no-repeat;}
-
+.screenshot-quadtree {background:url("../images/planvorming.png") -169px -188px no-repeat;}
+.screenshot-overstroming {background:url("../images/michielluc.png")  -46px no-repeat;}
+.screenshot-traploos {background:url("../images/traploos.png")  no-repeat;}
+.screenshot-beton {background:url("../images/michielluc.jpg") 1px 1px no-repeat;}
+.screenshot-technicaldetails {background:url("../images/technicaldetails.jpg") -192px -13px no-repeat;}
 
 
 .screenshot-consortium {background:url("../images/consortium.jpg") no-repeat;}
@@ -169,7 +172,7 @@ section h3{
 .screenshot-case-barneveldsedijk {background:url("../images/case-barneveldsedijk.jpg") no-repeat;}
 .screenshot-case-klimaatadaptatie {background:url("../images/case-klimaatadaptatie.jpg") no-repeat;}
 
-.screenshot-event-genomineerd {background:url("../images/event-3di-genomineerd.jpg") no-repeat;}
+.screenshot-event-genomineerd {background:url("../images/event-3di-genomineerd.png") no-repeat;}
 
 .screenshot-video1 {background:url("../images/video1.jpg") no-repeat;}
 .screenshot-video2 {background:url("../images/video2.jpg") -120px -36px no-repeat;}
@@ -214,6 +217,44 @@ section h3{
 }
 .column {
 	float: left;
-	width: 100px;
+	width: 101px;
 	padding: 9px 0 0 54px;
+}
+
+
+
+
+
+
+
+
+
+dl.table-display {
+	float: left;
+	width: 790px;
+	margin: 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #999;
+}
+dl.table-display a{
+	color: #000;
+}	
+.table-display dt {
+	clear: left;
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #999;
+	font-weight: bold;
+}
+	
+.table-display dd {
+	float: left;
+	width: 465px;
+	margin: 0;
+	padding: 5px;
+	font-size: .8em;
+	font-style: italic;
+	border-top: 1px solid #999;
 }

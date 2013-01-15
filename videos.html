@@ -14,7 +14,17 @@
 
 	<script>
 	$(document).ready(function() {
-		$('.fancybox').fancybox({'autosize':false,'fitToView': true, 'width':'522px','height':'320px'});
+		$('.fancybox').fancybox({
+			'autosize': false,
+			'fitToView': true,
+			'width':'522px',
+			'height':'320px',
+	    	'helpers' : {
+	    		'title' : {
+	    			'type' : 'inside'
+	    		}
+	    	}
+		});
 	});
 	</script>
 </head>
@@ -41,28 +51,147 @@
 </div>
 
 
+
 <div id="content-beta">
 	<h1><strong>3Di</strong> / Videos</h1>
-	
+
+		<div id="directorynav">
+		<div class="column">
+			<h3>Introductie</h3>
+			<ul>
+				<li><a href="#introductie">Promo NL</a></li>
+			</ul>
+		</div>
+		
+		<div class="column">
+			<h3>Demo's</h3>
+			<ul>
+				<li><a href="#demos">Interactief modelleren</a></li>
+				<li><a href="#demos">Het IJ stroomt over</a></li>
+				<li><a href="#demos">Overstroming Delft</a></li>
+			</ul>
+		</div>
+		
+		<div class="column">
+			<h3>Cases</h3>
+			<ul>
+				<li><a href="#cases">Calamiteitenoefening Dijkring 14</a></li>
+				<li><a href="#cases">Barneveldse beek</a></li>
+				<li><a href="#cases">Bouwstenen Klimaatadaptatie</a></li>
+			</ul>
+		</div>
+		
+		<div class="column">
+			<h3>3Di colleges</h3>
+			<ul>
+				<li><a href="#colleges">Guus aan het woord</a></li>
+				<li><a href="#colleges">3Di Good Modeling Practice</a></li>
+			</ul>
+		</div>
+
+	</div>
+		
+		
+	<h2><a id="introductie">Introductie</a></h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	</p>	
+		
 	<section>
 		<div class="screenshot">
-			<a class="fancybox fancybox.iframe" href="video1.html"><div class="screenshot-video1 frame"></div></a>
+			<a class="fancybox fancybox.iframe" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." href="video1.html"><div class="screenshot-video1 frame"></div></a>
 			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
 		</div>
-		<h3>Video 1</h3>
+		<h3>Promo NL</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<div class="clear"></div>
 	</section>
 
+
+	<h2><a id="demos">Demo's</a></h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	</p>	
+	
 	<section>
 		<div class="screenshot">
 			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
 			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
 		</div>
-		<h3>Video 2</h3>
+		<h3>Interactief modelleren</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<div class="clear"></div>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Het IJ stroomt over</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>		
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Overstroming Delft</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>		
 	</section>
+
+
+	<h2><a id="cases">Cases</a></h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	</p>	
+	
+	<section>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Calamiteitenoefening Dijkring 14</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Barsneveldse Beek</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Bouwstenen Klimaatadaptatie</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>				
+	</section>
+
+
+	<h2><a id="colleges">Colleges</a></h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+	</p>	
+	
+	<section>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>Guus aan 't woord</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>
+		<div class="screenshot">
+			<a class="fancybox fancybox.iframe" href="video2.html"><div class="screenshot-video2 frame"></div></a>
+			<div class="roundbutton purple screenshot-1"><div class="screenshot-zoom"></div></div>
+		</div>
+		<h3>3Di Good Modeling Practice</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="clear"></div>		
+	</section>
+
+
+
+
+
+
+
 
 
 
